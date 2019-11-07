@@ -50,7 +50,7 @@
 export default {
   data() {
     return {
-      darkTheme: false
+      darkTheme: true
     }
   },
   mounted() {
