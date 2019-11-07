@@ -5,7 +5,7 @@ export function vuetifyConfig() {
       iconfont: 'mdi'
     },
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: '#21CFF3',

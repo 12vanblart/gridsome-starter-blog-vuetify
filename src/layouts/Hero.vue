@@ -1,6 +1,6 @@
 <template>
   <v-app :dark="darkTheme">
-    <v-card :dark="darkTheme">
+    <v-card>
       <v-app-bar
         app
         dark
@@ -26,7 +26,7 @@
 
         <!-- Author links -->
 
-        <v-speed-dial direction="bottom">
+        <v-speed-dial v-model="fab" direction="bottom">
           <template v-slot:activator>
             <v-btn icon rounded dark title="Author links">
               <v-icon>mdi-dots-vertical</v-icon>
